@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.edit-input {
+    display: none;
+}
